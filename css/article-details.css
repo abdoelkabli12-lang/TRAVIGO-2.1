@@ -242,7 +242,7 @@ transform: scale(1.1);
 .labels {
     display: flex;
     gap: 0.7rem;
-    padding-left: 1.5rem;
+    padding-left: 1.5rem; 
 }
 
 .blogs-recommendation-title {
