@@ -69,6 +69,14 @@ li:nth-child(8) {
 .mobile-nav {
   display: none;
 }
+.decore {
+  position: absolute;
+  display: flex;
+  object-fit: contain;
+  width: 30vw;
+  right: 0;
+  z-index: -1;
+}
 /* Login Section */
 .login-section {
   display: flex;
@@ -132,11 +140,12 @@ li:nth-child(8) {
 }
 
 .login-right {
-  background: #fffefe;
+  background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   padding: 50px 40px;
+
 }
 
 .login-right h3 {
@@ -296,6 +305,7 @@ li:nth-child(8) {
   color: #ff6600;
   text-decoration: underline;
 }
+
 
 /* Footer */
 #Contact {
