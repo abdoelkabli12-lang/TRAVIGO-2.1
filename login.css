@@ -14,55 +14,57 @@ body {
 
 /* Header */
 header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
+  position: relative;
+  right: 0px;
   display: flex;
+  justify-content: center;
+  padding-top: 1.25rem;
+  position: fixed;
+  z-index: 100;
   align-items: center;
-  justify-content: space-between;
-  padding: 20px 10%;
-  backdrop-filter: blur(10px);
+}
+
+header ul {
+    display: flex;
+    gap: 3.45rem;
+    align-items: center;
+    padding-top: 0.4rem; 
+    padding-left: 5.81rem;
+    padding-right: 5.06rem;
 }
 
 .logo {
-  font-size: 30px;
-  font-weight: 600;
-  color: #111;
+  position: absolute;
+  font-family: "lexend";
+  font-weight: bold;
+  font-size: 14pt;
+  right: 180vh;
+  top: 4vh;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  gap: 25px;
+a {
+    color: black;
+    font-family: "open sans";
+    font-weight: 600;
+    font-size: 14pt;
 }
 
-.navbar a {
-  color: #111;
-  font-weight: 500;
-  transition: 0.3s;
+li:nth-child(8) {
+    padding-right: 1.43rem;
+    padding-left: 1.43rem;
+    padding-top: 0.81rem;
+    padding-bottom: 0.81rem;
+    border: 0.0625rem black solid;
+    border-radius: 0.625rem;
 }
 
-.navbar a:hover {
-  color: #fd890d;
-}
-
-.signup-btn {
-  border: 2px solid #fd890d;
-  padding: 6px 14px;
-  border-radius: 6px;
-  transition: 0.3s;
-}
-
-.signup-btn:hover {
-  background: #000;
-}
-
-.lang-select {
-  border: none;
-  background: transparent;
-  font-size: 16px;
-  cursor: pointer;
+#lang {
+    font-family: "open sans";
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 .mobile-nav {
   display: none;
