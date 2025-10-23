@@ -3,6 +3,7 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 
@@ -268,6 +269,7 @@ transform: scale(1.1);
 .blog-redirect a:hover{
     transform: scale(1.1);
 }
+/* FOOTER STYLES */
 footer {
     padding-top: 5em;
     display: flex;
