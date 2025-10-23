@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travigo - Travel for everyone</title>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+  <!-- Header -->
+   <header>
+    <a href="index.html" class="logo">Travigo</a>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="destination.html">Destinations</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+      <a href="singup.html" class="signup-btn">Sign Up</a>
+      <select id="lang-select" class="lang-select">
+        <option value="en" selected>EN</option>
+        <option value="fr">FR</option>
+        <option value="ar">AR</option>
+      </select>
+    </nav>
+    <!-- Mobile Navigation -->
+<nav class="mobile-nav">
+  <ul>
+    <li><a href="index.html"><i class='bx bx-home-alt'></i></a></li>
+    <li><a href="destination.html"><i class='bx bx-compass'></i></a></li>
+    <li><a href="about.html"><i class='bx bx-image-alt'></i></a></li>
+    <li><a href="contact.html"><i class='bx bx-note'></i></a></li>
+    <li><a href="login.html"><i class='bx bx-phone'></i></a></li>
+  </ul>
+</nav>
+</header>
+
+<!-- Login Section -->
+  <section class="login-section">
+    <div class="login-container">
+      <div class="login-left">
+        <h2>Welcome Back!</h2>
+        <p>Login to access your account and continue your journey with us. Discover amazing destinations around the world.</p>
+      </div>
+      <!--Login Form -->
+      <div class="login-right">
+        <h3>Login to Travigo</h3>
+        <p>Enter your credentials to access your account</p>
+
+        <form id="loginForm">
+          <div class="input-group">
+            <label for="email">Email Address</label>
+            <div class="input-wrapper">
+              <i class="fas fa-envelope"></i>
+              <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="password">Password</label> 
+            <div class="input-wrapper">
+              <i class="fas fa-lock"></i>
+              <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+          </div>
+
+          <div class="options">
+            <label class="remember-me">
+              <input type="checkbox" id="remember">
+              <span>Remember me</span>
+            </label>
+            <a href="#" class="forgot-password">Forgot Password?</a>
+          </div>
+          <button type="submit" class="login-btn">Login Now</button>
+        </form>
+
+        <div class="divider">
+          <span>Or continue with</span>
+        </div>
+
+        <p class="signup-link">
+          Don't have an account? <a href="singup.html">Sign Up Now</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+   <!-- footer -->
+<section id="Contact">
+    <div class="footer">
+      <div class="main">
+        <div class="list">
+          <h1>Travigo.</h1>
+          <p>Book your trip in minute, get full Control for much longer.</p>
+        </div>
+
+        <div class="list">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Mobile</a></li>
+          </ul>
+        </div>
+
+        <div class="list">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="#">Help/FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Address</a></li>
+          </ul>
+        </div>
+
+        <div class="list">
+          <h3>More</h3>
+          <ul>
+            <li><a href="#">Flights</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Booking</a></li>
+          </ul>
+        </div>
+
+        <div class="list">
+          <div class="socials">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram' class="Insta"></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <p>
+              Discover our app
+            </p>
+            <img src="imgs/Google Play.png">
+            </a><img src="imgs/Play Store.png">
+          </div>
+        </div>
+        <p class="CR">All rights reserved@genZdevs.co</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
