@@ -3,35 +3,43 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog-contact.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons@3.3.1/css/all/all.min.css" rel="stylesheet"/>
     <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
-    <header class="navbar">
-        <div class="bar-container">
-            <div class="logo">
-                <a href="#" class="logo"> Travigo</a>
-
-            </div>
-            <nav class="menu">
-                <ul class="nav-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="Destination.html">Destination</a></li>
-                    <li><a href="Galerie.html">Galerie</a></li>
-                    <li><a href="Blog.html">Blog</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><button class="btn-sign">Sign-Up</button> </li>
-                    <li><a href="#">En</a></li>
-                </ul>
-            </nav>
-        </div>
+     <header>
+      <h1>Travigo</h1>
+      <ul class="for-desktop">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="gallerie.html">Gallerie</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="sign-up.html">Sign up</a></li>
+        <select class="dropdown">
+          <option>EN</option>
+          <option>FR</option>
+          <option>AR</option>
+        </select>
+      </ul>
+      <ul class="for-mobile">
+        <a href="login.html"><img src="/img/compte-icon.svg" alt="Account Icon"></a>
+        <select class="dropdown">
+          <option>EN</option>
+          <option>FR</option>
+          <option>AR</option>
+        </select>
+      </ul>
     </header>
-    <section class="page-title">
-        <h1>Contact-Us</h1>
+    <section class="Contact-Title">
+        <h1>Contact Us</h1>
         <p>we'd love to hear from you! Send us a message and we'll get back to you <br>soon</p>
     </section>
     <section class="contact">
@@ -68,145 +76,260 @@
         </div>
     </section>
     <section class="faq">
-      <h2>FAQ</h2>
-      <div class="questions">
-        <div class="question-content">
-          <div class="question">
-            <p>How do travel agents get paid, and will it cost me extra?</p>
-            <i class="fi fi-rs-angle-small-down"></i>
-          </div>
-          <div class="answer">
-            <p>
-              Great question! Travel agents are typically paid by the resorts,
-              so we don’t charge a service fee for our expertise. Many resorts
-              follow price parity, meaning the cost is the same whether you book
-              through us, directly with the resort, or via an online booking
-              site. The difference? When you book with us, you gain a trusted
-              advisor to help you plan a stress-free, personalized vacation
-              without the hassle of navigating all the details on your own. It’s
-              all about making your travel experience seamless and
-              unforgettable!
-            </p>
-          </div>
-        </div>
-        <div class="question-content">
-          <div class="question">
-            <p>
-              Why should I book with you instead of an online booking site or
-              directly with a resort?
-            </p>
-            <i class="fi fi-rs-angle-small-down"></i>
-          </div>
-          <div class="answer">
-            <p>
-              Booking with us means having a dedicated travel expert by your
-              side every step of the way—before, during, and after your trip.
-              Here’s why we stand out: Personalized Service: We help plan your
-              dream vacation while keeping your budget in mind. No pressure, no
-              stress—just the perfect getaway you can truly enjoy. Honest
-              Advice: We provide unbiased recommendations about resorts and
-              destinations to ensure you choose the one that’s right for you.
-              Exclusive Perks: Thanks to our strong relationships with resorts,
-              we can often secure perks like room upgrades or special touches
-              that online booking sites can’t offer. Peace of Mind: With your
-              personal 1-800 number to reach us anytime during your trip, help
-              is just a call away if you need it. When you book with us, you get
-              so much more than a reservation—you get a trusted partner in
-              crafting a stress-free, unforgettable vacation.
-            </p>
-          </div>
-        </div>
-        <div class="question-content">
-          <div class="question">
-            <p>
-              Will I pay more for my vacation if I book through you instead of
-              an online booking site
-            </p>
-            <i class="fi fi-rs-angle-small-down"></i>
-          </div>
-          <div class="answer">
-            <p>
-              Not at all! We have access to the same pricing as online booking
-              sites and can price-match when comparing identical options. In
-              many cases, we can even secure exclusive discounts or promotional
-              offers that aren’t available to the general public. Booking with
-              us means you get competitive pricing plus the added value of
-              personalized service, expert advice, and potential perks—all at no
-              extra cost to you!
-            </p>
-          </div>
-        </div>
-        <div class="question-content">
-          <div class="question">
-            <p>Do I have to pay you upfront in full for my vacation?</p>
-            <i class="fi fi-rs-angle-small-down"></i>
-          </div>
-          <div class="answer">
-            <p>No, you don’t! The deposit requirements are determined by the resorts or tour operators we work with and vary based on your chosen package and travel dates.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="Contact">
-        <div class="footer">
-            <div class="main">
-                <div class="list">
-                    <h1>Travigo.</h1>
+        <h2>FAQ</h2>
+        <div class="questions">
+            <div class="question-content">
+                <div class="question">
+                    <p>How do travel agents get paid, and will it cost me extra?</p>
+                    <i class="fi fi-rs-angle-small-down"></i>
+                </div>
+                <div class="answer">
                     <p>
-                        Book your trip in minute, get full Control for much longer.
+                        Great question! Travel agents are typically paid by the resorts,
+                        so we don’t charge a service fee for our expertise. Many resorts
+                        follow price parity, meaning the cost is the same whether you book
+                        through us, directly with the resort, or via an online booking
+                        site. The difference? When you book with us, you gain a trusted
+                        advisor to help you plan a stress-free, personalized vacation
+                        without the hassle of navigating all the details on your own. It’s
+                        all about making your travel experience seamless and
+                        unforgettable!
                     </p>
                 </div>
-
-                <div class="list">
-                    <h3>
-                        Company
-                    </h3>
-
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Mobile</a></li>
-                    </ul>
+            </div>
+            <div class="question-content">
+                <div class="question">
+                    <p>
+                        Why should I book with you instead of an online booking site or
+                        directly with a resort?
+                    </p>
+                    <i class="fi fi-rs-angle-small-down"></i>
                 </div>
-
-                <div class="list">
-                    <h3>
-                        Contact
-                    </h3>
-                    <ul>
-                        <li><a href="#">Help/FAQ</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Address</a></li>
-                    </ul>
+                <div class="answer">
+                    <p>
+                        Booking with us means having a dedicated travel expert by your
+                        side every step of the way—before, during, and after your trip.
+                        Here’s why we stand out: Personalized Service: We help plan your
+                        dream vacation while keeping your budget in mind. No pressure, no
+                        stress—just the perfect getaway you can truly enjoy. Honest
+                        Advice: We provide unbiased recommendations about resorts and
+                        destinations to ensure you choose the one that’s right for you.
+                        Exclusive Perks: Thanks to our strong relationships with resorts,
+                        we can often secure perks like room upgrades or special touches
+                        that online booking sites can’t offer. Peace of Mind: With your
+                        personal 1-800 number to reach us anytime during your trip, help
+                        is just a call away if you need it. When you book with us, you get
+                        so much more than a reservation—you get a trusted partner in
+                        crafting a stress-free, unforgettable vacation.
+                    </p>
                 </div>
-
-                <div class="list">
-                    <h3>
-                        More
-                    </h3>
-                    <ul>
-                        <li><a href="#">Flights</a></li>
-                        <li><a href="#">Hotels</a></li>
-                        <li><a href="#">Booking</a></li>
-                    </ul>
+            </div>
+            <div class="question-content">
+                <div class="question">
+                    <p>
+                        Will I pay more for my vacation if I book through you instead of
+                        an online booking site
+                    </p>
+                    <i class="fi fi-rs-angle-small-down"></i>
                 </div>
-
-                <div class="list">
-                    <div class="socials">
-                        <a href="#"><i class='bx bxl-facebook'></i></a>
-                        <a href="#"><i class='bx bxl-instagram' class="Insta"></i></a>
-                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                        <p>
-                            Discover our app
-                        </p>
-                        <img src="imgs/Google Play.png">
-                        </a><img src="imgs/Play Store.png">
-                    </div>
+                <div class="answer">
+                    <p>
+                        Not at all! We have access to the same pricing as online booking
+                        sites and can price-match when comparing identical options. In
+                        many cases, we can even secure exclusive discounts or promotional
+                        offers that aren’t available to the general public. Booking with
+                        us means you get competitive pricing plus the added value of
+                        personalized service, expert advice, and potential perks—all at no
+                        extra cost to you!
+                    </p>
                 </div>
-                <p class="CR">All rights reserved@genZdevs.co</p>
+            </div>
+            <div class="question-content">
+                <div class="question">
+                    <p>Do I have to pay you upfront in full for my vacation?</p>
+                    <i class="fi fi-rs-angle-small-down"></i>
+                </div>
+                <div class="answer">
+                    <p>No, you don’t! The deposit requirements are determined by the resorts or tour operators we work
+                        with and vary based on your chosen package and travel dates.</p>
+                </div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footer-column">
+            <div>
+                <div class="footer-text-1">
+                    <a href="index.html">Travigo.</a>
+                </div>
+                <div class="footer-text-2">
+                    <p>
+                        Book your trip in minute, get full<br>
+                        Control for much longer
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="footer-text-3">
+                    <p>
+                        Company
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">About</a>
+                    <a href="#">Team</a>
+                    <a href="#">Mobile</a>
+                </div>
+            </div>
+            <div>
+                <div class="footer-text-3">
+                    <p>
+                        Contact
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Help/FAQ</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Address </a>
+                </div>
+            </div>
+            <div>
+                <div class="footer-text-3">
+                    <p>
+                        More
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Flights</a>
+                    <a href="#">Hotels</a>
+                    <a href="#">Booking</a>
+                </div>
+            </div>
+            <div class="discover">
+                <div>
+                    <img src="Ayoub-img/FACEBOOK.png" alt="facebook logo">
+                    <img src="Ayoub-img/INSTAGRAM.png" alt="instagram logo">
+                    <img src="Ayoub-img/twitter.png" alt="twitter logo">
+                </div>
+                <div class="footer-text-4">
+                    <p>
+                        Discover our app
+                    </p>
+                </div>
+                <div class="social">
+                    <img src="Ayoub-img/Google Play.png" alt="Google Play Store">
+                    <img src="Ayoub-img/Play Store.png" alt="Apple App Store">
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            <p class="footer-text-2">
+                All rights reserved@genZdevs.co
+            </p>
+        </div>
+    </footer>
+    <footer class="footer-mobile">
+        <div class="footer-column">
+            <div class="footer-row-1">
+                <div class="footer-text-1">
+                    <a href="index.html">Travigo.</a>
+                </div>
+                <div class="footer-text-2">
+                    <p>
+                        Book your trip in minute, get full<br>
+                        Control for much longer
+                    </p>
+                </div>
+            </div>
+            <div class="nav-links">
+                <div>
+                    <div class="footer-text-3">
+                        <p>
+                            Company
+                        </p>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#">About</a>
+                        <a href="#">Team</a>
+                        <a href="#">Mobile</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="footer-text-3">
+                        <p>
+                            Contact
+                        </p>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#">Help/FAQ</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Address </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="footer-text-3">
+                        <p>
+                            More
+                        </p>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#">Flights</a>
+                        <a href="#">Hotels</a>
+                        <a href="#">Booking</a>
+                    </div>
+                </div>
+            </div>
+            <div class="discover">
+                <div>
+                    <img src="Ayoub-img/FACEBOOK.png" alt="facebook logo">
+                    <img src="Ayoub-img/INSTAGRAM.png" alt="instagram logo">
+                    <img src="Ayoub-img/twitter.png" alt="twitter logo">
+                </div>
+                <div class="footer-text-4">
+                    <p>
+                        Discover our app
+                    </p>
+                </div>
+                <div class="social">
+                    <img src="Ayoub-img/Google Play.png" alt="Google Play Store">
+                    <img src="Ayoub-img/Play Store.png" alt="Apple App Store">
+            </div>
+        </div>
+        <div class="copyrights">
+            <p>
+                All rights reserved@genZdevs.co
+            </p>
+        </div>
+    </footer>
+    <nav class="mobile-nav">
+        <ul>
+            <li>
+                <a href="../galerie.html">
+                    <i class="fi fi-rr-gallery"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../Destinations.html">
+                    <i class="fi fi-rr-ticket-airline"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../index.html">
+                    <i class="fi fi-rr-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../blog.html">
+                    <i class="fi fi-rr-blog-text"></i>
+                </a>
+            </li>
+            <li>
+                <a href="../contact.html">
+                    <i class="fi fi-rr-phone-call"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </body>
 
 </html>
