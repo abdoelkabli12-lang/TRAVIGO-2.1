@@ -37,7 +37,7 @@ header ul {
   position: absolute;
   font-family: "lexend";
   font-weight: bold;
-  font-size: 14pt;
+  font-size: 13pt;
   right: 180vh;
   top: 4vh;
 }
@@ -46,7 +46,7 @@ a {
     color: black;
     font-family: "open sans";
     font-weight: 600;
-    font-size: 14pt;
+    font-size: 13pt;
 }
 
 li:nth-child(8) {
@@ -424,4 +424,168 @@ p {
   width: 220px;
   font-weight: 410;
   margin-bottom: 10%;
+}
+
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  body {
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding: 1rem 5%;
+  }
+
+  header ul {
+    display: none;
+  }
+  
+  .logo {
+    position: fixed;
+    left: 0px;
+  }
+  
+
+  .decore {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 15px 0;
+  }
+
+  .mobile-nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-nav ul li a {
+    font-size: 26px;
+    color: #333;
+  }
+
+  .mobile-nav ul li a:hover {
+    color: #fd890d;
+  }
+
+  .login-section {
+    padding: 100px 5% 100px;
+  }
+
+  .login-container {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .login-left {
+    display: none;
+  }
+
+  .login-right {
+    padding: 40px 20px;
+    box-shadow: none;
+    border: none;
+  }
+
+  .login-right h3 {
+    text-align: center;
+  }
+
+  .login-right > p {
+    text-align: center;
+  }
+
+  /* Footer */
+  #Contact {
+    left: 0;
+    padding: 40px 5% 100px;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list {
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .list h1 {
+    font-size: 36px;
+  }
+
+  .list h3 {
+    margin-left: 0;
+  }
+
+  .list ul:first-of-type {
+    margin-left: 0;
+  }
+
+  .list .socials a {
+    left: 0;
+    position: static;
+  }
+
+  .list .socials img {
+    left: 0;
+    position: static;
+    width: 130px;
+    margin: 5px;
+  }
+
+  .list .socials p {
+    left: 0;
+    position: static;
+  }
+
+  .CR {
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 375px) {
+  .login-right {
+    padding: 30px 15px;
+  }
+
+  .login-right h3 {
+    font-size: 24px;
+  }
+
+  .input-wrapper input {
+    padding: 12px 14px 12px 40px;
+    font-size: 14px;
+  }
+
+  .login-btn {
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .mobile-nav ul li a {
+    font-size: 24px;
+  }
+
+  .list h1 {
+    font-size: 32px;
+  }
 }
