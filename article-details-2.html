@@ -13,46 +13,55 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet">
-  <title style="font-family: Lexend;">Travigo | Explore, Journey, Discover, Adventure</title>
-  <link rel="stylesheet" href="/css/article-details.css">
+  <title style="font-family: Lexend;">Travigo | Photography Tips for Capturing Your Travels</title>
+  <link rel="stylesheet" href="/walid-css/article-details.css">
+  <link href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons@3.3.1/css/all/all.min.css" rel="stylesheet" />
 </head>
 
 <body>
   <main>
     <header>
       <h1>Travigo</h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
+      <ul class="for-desktop">
+        <li><a href="Index.html">Home</a></li>
         <li><a href="destinations.html">Destinations</a></li>
-        <li><a href="gallerie.html">Gallerie</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="sign-up.html">Sign up</a></li>
-        <select name="language" id="dropdown">
+        <li><a href="Gallery.html">Gallerie</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Login.html">Login</a></li>
+        <li><a href="Sign-up.html">Sign up</a></li>
+        <select class="dropdown">
+          <option>EN</option>
+          <option>FR</option>
+          <option>AR</option>
+        </select>
+      </ul>
+      <ul class="for-mobile">
+        <a href="login.html"><img src="/walid-img/compte-icon.svg" alt="Account Icon"></a>
+        <select class="dropdown">
           <option>EN</option>
           <option>FR</option>
           <option>AR</option>
         </select>
       </ul>
     </header>
-    <h1 id="main-h1">Explore, Journey,<br>Discover, Adventure </h1>
+    <h1 id="main-h1">Photography Tips for<br>Capturing Your Travels</h1>
     <div class="information">
       <div class="author">
-        <img id="arthur" src="/img/arthur.svg" alt="Arthur Morgan RED DEAD REDEMPTION">
+        <img id="arthur" src="/walid-img/arthur.svg" alt="Arthur Morgan RED DEAD REDEMPTION">
         <p>Arthur Morgan</p>
       </div>
       <div class="date">
-        <img id="calendar" src="/img/calendar-icon.svg" alt="Orange Calendar Icon">
+        <img id="calendar" src="/walid-img/calendar-icon.svg" alt="Orange Calendar Icon">
         <p>oct 20,2025</p>
       </div>
       <div class="time">
-        <img id="clock" src="/img/clock-icon.svg" alt="Orange Clock Icon">
+        <img id="clock" src="/walid-img/clock-icon.svg" alt="Orange Clock Icon">
         <p>3 mins read</p>
       </div>
     </div>
-    <img id="picture" src="/img/article-details-1.svg" alt="A women standing in the middle of jungle">
+    <img id="picture" src="/walid-img/article-details-2.svg" alt="A Man  Holding A Camera In Front Of A Natural View">
     <article>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus vehicula arcu quis blandit. Ut nulla
@@ -84,7 +93,7 @@
           <h2>News & Blogs</h2>
           <h1>Check Related Blog</h1>
         </div>
-        <div class="redirect"><a href="blog.html">See All Blog</a></div>
+        <div class="redirect"><a href="Blog.html">See All Blog</a></div>
       </div>
       <div class="blogs-recommendations">
         <div class="blogs-recommendation">
@@ -93,7 +102,24 @@
             <button>Booking</button>
           </div>
           <div>
-            <img src="/img/blog-recommendation-1.svg" alt="A Man Reading A Map">
+            <img src="/walid-img/blog-recommandation-3.svg" alt="Aurora Picture">
+          </div>
+          <div class="blogs-recommendation-title">
+            <p>
+              Best Time to Visit Top<br>Travel Destinations 
+            </p>
+          </div>
+          <div class="blog-redirect">
+            <a href="article-details-5.html">Read More ...</a>
+          </div>
+        </div>
+        <div class="blogs-recommendation">
+          <div class="labels">
+            <button>Travel</button>
+            <button>Booking</button>
+          </div>
+          <div>
+            <img src="/walid-img/blog-recommendation-1.svg" alt="A Man Reading A Map">
           </div>
           <div class="blogs-recommendation-title">
             <p>
@@ -104,30 +130,13 @@
             <a href="article-details-3.html">Read More ...</a>
           </div>
         </div>
-        <div class="blogs-recommendation">
-          <div class="labels">
-            <button>Travel</button>
-            <button>Booking</button>
-          </div>
-          <div>
-            <img src="/img/blog-recommandation-2.svg" alt="A Man  Holding A Camera In Front Of A Natural View">
-          </div>
-          <div class="blogs-recommendation-title">
-            <p>
-              Photography Tips for<br>Capturing Your Travels
-            </p>
-          </div>
-          <div class="blog-redirect">
-            <a href="article-details-2.html">Read More ...</a>
-          </div>
-        </div>
       </div>
     </section>
     <footer>
       <div class="footer-column-1">
         <div>
           <div class="footer-text-1">
-            <a href="index.html">Travigo.</a>
+            <a href="Index.html">Travigo.</a>
           </div>
           <div class="footer-text-2">
             <p>
@@ -174,9 +183,9 @@
         </div>
         <div class="discover">
           <div>
-            <img src="/img/facebook-icon.png" alt="facebook logo">
-            <img src="/img/instagram-icon.png" alt="instagram logo">
-            <img src="/img/twitter-icon.png" alt="twitter logo">
+            <img src="/walid-img/facebook-icon.png" alt="facebook logo">
+            <img src="/walid-img/instagram-icon.png" alt="instagram logo">
+            <img src="/walid-img/twitter-icon.png" alt="twitter logo">
           </div>
           <div class="footer-text-4">
             <p>
@@ -184,8 +193,8 @@
             </p>
           </div>
           <div>
-            <img src="/img/Google-Play.png" alt="Google Play Store">
-            <img src="/img/app-Store.png" alt="Apple App Store">
+            <img src="/walid-img/Google-Play.png" alt="Google Play Store">
+            <img src="/walidimg/app-Store.png" alt="Apple App Store">
           </div>
         </div>
       </div>
@@ -195,6 +204,109 @@
         </p>
       </div>
     </footer>
+     <footer class="footer-mobile">
+      <div class="footer-column">
+        <div class="footer-row-1">
+          <div class="footer-text-1">
+            <a href="Index.html">Travigo.</a>
+          </div>
+          <div class="footer-text-2">
+            <p>
+              Book your trip in minute, get full<br>
+              Control for much longer
+            </p>
+          </div>
+        </div>
+        <div class="nav-links">
+          <div>
+            <div class="footer-text-3">
+              <p>
+                Company
+              </p>
+            </div>
+            <div class="footer-links">
+              <a href="#">About</a>
+              <a href="#">Team</a>
+              <a href="#">Mobile</a>
+            </div>
+          </div>
+          <div>
+            <div class="footer-text-3">
+              <p>
+                Contact
+              </p>
+            </div>
+            <div class="footer-links">
+              <a href="#">Help/FAQ</a>
+              <a href="#">Contact</a>
+              <a href="#">Address </a>
+            </div>
+          </div>
+          <div>
+            <div class="footer-text-3">
+              <p>
+                More
+              </p>
+            </div>
+            <div class="footer-links">
+              <a href="#">Flights</a>
+              <a href="#">Hotels</a>
+              <a href="#">Booking</a>
+            </div>
+          </div>
+        </div>
+        <div class="discover">
+          <div>
+            <img src="/walid-img/facebook-icon.png" alt="facebook logo">
+            <img src="/walid-img/instagram-icon.png" alt="instagram logo">
+            <img src="/walid-img/twitter-icon.png" alt="twitter logo">
+          </div>
+          <div class="footer-text-4">
+            <p>
+              Discover our app
+            </p>
+          </div>
+          <div class="social">
+            <img src="/walid-img/Google-Play.png" alt="Google Play Store">
+            <img src="/walid-img/app-Store.png" alt="Apple App Store">
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">
+        <p>
+          All rights reserved@genZdevs.co
+        </p>
+      </div>
+    </footer>
+    <nav class="mobile-nav">
+      <ul>
+        <li>
+          <a href="../gallery.html">
+            <i class="fi fi-rr-gallery"></i>
+          </a>
+        </li>
+        <li>
+          <a href="../Destinations.html">
+            <i class="fi fi-rr-ticket-airline"></i>
+          </a>
+        </li>
+        <li>
+          <a href="../Index.html">
+            <i class="fi fi-rr-home"></i>
+          </a>
+        </li>
+        <li>
+          <a href="../Blog.html">
+            <i class="fi fi-rr-blog-text"></i>
+          </a>
+        </li>
+        <li>
+          <a href="../Contact.html">
+            <i class="fi fi-rr-phone-call"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </main>
 </body>
 
