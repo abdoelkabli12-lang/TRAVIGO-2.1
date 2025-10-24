@@ -41,6 +41,7 @@ p {
   font-size: var(--pa-size);
 }
 header {
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 1.25rem 1.457rem;
@@ -53,8 +54,8 @@ header {
   gap: 3.45rem;
   align-items: center;
   padding-top: 0.4rem;
-  padding-left: 5.81rem;
-  padding-right: 5.06rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 header h1 {
@@ -590,4 +591,7 @@ transform: scale(1.1);
   .dropdown:active{
     transform: scale(1.1);
   }
+  .destination-place div {
+  bottom: 20%;
+}
 }
