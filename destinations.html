@@ -19,46 +19,60 @@
   </head>
   <body>
     <header>
-      <h2>Travigo</h2>
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html" >Home</a>
-          </li>
-          <li>
-            <a href="destinations.html" class="active">Destinations</a>
-          </li>
-          <li>
-            <a href="gallerie.html">Gallerie</a>
-          </li>
-          <li>
-            <a href="blog.html">Blog</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="contact.html">contact</a>
-          </li>
-          <li>
-            <a href="login.html">Login</a>
-          </li>
-          <li>
-            <a href="signup.html">Sign up</a>
-          </li>
-          <li>
-            <select name="languages" id="language">
-              <option value="">En</option>
-              <option value="">Fr</option>
-              <option value="">Ar</option>
-            </select>
-          </li>
-        </ul>
-      </nav>
-      <button>
-        <i class="fi fi-br-menu-burger"></i>
-      </button>
+      <h1>Travigo</h1>
+      <ul class="for-desktop">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="gallerie.html">Gallerie</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="sign-up.html">Sign up</a></li>
+        <select class="dropdown">
+          <option>EN</option>
+          <option>FR</option>
+          <option>AR</option>
+        </select>
+      </ul>
+      <ul class="for-mobile">
+        <a href="login.html"><img src="destinations/compte-icon.svg" alt="Account Icon"></a>
+        <select class="dropdown">
+          <option>EN</option>
+          <option>FR</option>
+          <option>AR</option>
+        </select>
+      </ul>
     </header>
+    <nav class="mobile-nav">
+      <ul>
+        <li>
+            <a href="../galerie.html"> 
+               <i class="fi fi-rr-gallery"></i> 
+            </a>
+        </li>
+        <li>
+            <a href="../Destinations.html"> 
+               <i class="fi fi-rr-ticket-airline"></i>
+            </a>
+        </li>
+        <li>
+            <a href="../index.html"> 
+               <i class="fi fi-rr-home"></i>
+            </a>
+        </li>
+        <li>
+            <a href="../blog.html"> 
+               <i class="fi fi-rr-blog-text"></i> 
+            </a>
+        </li>
+        <li>
+            <a href="../contact.html"> 
+               <i class="fi fi-rr-phone-call"></i> 
+            </a>
+        </li>
+      </ul>
+    </nav>
      <section class="Hero">
       <div class="Hero-content">
         <h3>Best Destinations around the world</h3>

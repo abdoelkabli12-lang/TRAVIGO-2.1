@@ -1,6 +1,9 @@
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
   box-sizing: border-box;
 }
 :root {
@@ -38,65 +41,76 @@ p {
   font-size: var(--pa-size);
 }
 header {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: white;
-  font-family: var(--p-fam);
-  position: fixed;
-  transition: all 0.5s;
-  z-index: 10001;
-}
-header.stick {
-  height: 80px;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-}
-header img {
-  width: 60px;
-  height: 60px;
-}
-header nav ul {
-  display: flex;
-  justify-content: space-between;
-  gap: 36px;
-  list-style: none;
-}
-header nav ul li {
-  padding: 10px 20px;
-}
-header nav ul li:nth-child(8) {
-  border: 1px solid var(--thm-clr);
-  border-radius: 5px;
-}
-header nav ul li select {
-  border: none;
-  background-color: transparent;
-}
-header nav ul li a {
-  text-decoration: none;
-  color: black;
-  transition: all 0.5s;
-}
-header nav ul li a.active {
-  border-bottom: 2px solid var(--thm-clr);
-}
-header nav ul li a:hover {
-  color: var(--thm-clr);
-  transform: translateY(50px);
-}
-header button {
-  cursor: pointer;
-  padding: 5px;
-  color: var(--thm-clr);
-  font-size: 1.2rem;
-  border: none;
-  background-color: transparent;
   display: flex;
   justify-content: center;
+  padding: 1.25rem 1.457rem;
+  gap: 10.47rem;
+  z-index: 100;
+}
+
+.for-desktop {
+  display: flex;
+  gap: 3.45rem;
   align-items: center;
+  padding-top: 0.4rem;
+  padding-left: 5.81rem;
+  padding-right: 5.06rem;
+}
+
+header h1 {
+  font-family: "lexend";
+  font-weight: bold;
+  font-size: 2.34rem;
+  cursor: pointer;
+  transition: ease-in-out 0.15s;
+}
+
+header h1:hover {
+  transform: scale(1.1);
+}
+
+header a {
+  color: black;
+  font-family: "open sans";
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+header li {
+  transition: ease-in-out 0.15s;
+}
+
+header li:hover {
+  transform: scale(1.1);
+}
+
+li:nth-child(8) {
+  padding-right: 1.43rem;
+  padding-left: 1.43rem;
+  padding-top: 0.81rem;
+  padding-bottom: 0.81rem;
+  border: 0.0625rem black solid;
+  border-radius: 0.625rem;
+}
+
+.for-mobile {
+  display: none;
+}
+
+.dropdown {
+  font-family: "open sans";
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: ease-in-out 0.15s;
+}
+
+#dropdown:hover {
+  transform: scale(1.1);
+}
+.mobile-nav{
   display: none;
 }
 /* ************************************************ */
@@ -255,11 +269,12 @@ footer .main-footer {
 /* ************************ */
 .destination-place {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   z-index: -1;
 }
 .destination-place img {
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -472,6 +487,7 @@ footer .main-footer {
     width: 100%;
     height: 50px;
     border-top: 1px solid rgba(100, 100, 100, 0.5);
+    z-index: 1001;
   }
   .mobile-nav ul {
     width: 100%;
@@ -505,6 +521,9 @@ footer .main-footer {
   header button {
     display: block;
   }
+  .Hero{
+    padding: 20px;
+  }
   .Hero .hero-banner {
     display: none;
   }
@@ -520,5 +539,55 @@ footer .main-footer {
   .pack-grid,.pack-upcome {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(auto, 1fr);
+  }
+  .for-desktop {
+    display: none;
+  }
+
+  .for-mobile { 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: ease-in-out 0.15s;
+   
+  }
+.for-mobile a:active{
+transform: scale(1.1);
+}
+  .for-mobile img {
+    display: flex;
+    align-items: center;
+    transform: scale(1.1);
+  }
+
+  .for-mobile .dropdown {
+    font-size: 1rem;
+  }
+
+  header {
+    justify-content: space-between;
+    padding-left: 0.8rem;
+    padding-right: 1rem;
+  }
+
+  header h1:active {
+    transform: scale(1.1);
+  }
+
+  header h1 {
+    font-size: 1.43rem;
+  }
+
+  .dropdown {
+    font-family: "open sans";
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    transition: ease-in-out 0.15s;
+  }
+  .dropdown:active{
+    transform: scale(1.1);
   }
 }
