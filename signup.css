@@ -491,11 +491,6 @@ p {
         text-decoration: none;
     }
 
-    .decore img {
-      display: none;
-    }
-
-    
   header  {
     right: 2rem;
   }
@@ -509,18 +504,6 @@ p {
   right: 66vw;
   top: 4vh;
   }
-
-  .gallery {
-      top: 10vh;
-  }
-
-  
-.container {
-  width: 45vh;
-  top: 20rem;
-  padding: 0;
-
-}
 
   .Navbar{
     display: none;
