@@ -108,7 +108,7 @@ li:nth-child(8) {
 
 .container {
   position: absolute;
-  top: 35rem;
+  top: 30rem;
   padding: 2rem;
   margin-top: 100px;
   min-width: 20vh;
@@ -139,16 +139,7 @@ li:nth-child(8) {
 }
 
 
-.text {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 200px;
-    height: 0;
-    text-align: center;    
-    background: rgba(255, 255, 255, 0.7);
-    transition: height 0.7s ease-out;    
-}
+
 
 .slider-nav {
   position: absolute;
@@ -208,7 +199,7 @@ li:nth-child(8) {
   gap: 2vh;
   max-width: 300vh;
   margin: auto;
-  top: 50vh;
+  top: 40vh;
 
 }
 
@@ -242,7 +233,7 @@ li:nth-child(8) {
   position: absolute;
   left: 2vh;
   width: 75%;
-  top: 550vh;
+  top: 520vh;
 }
 
 .main {
@@ -380,7 +371,7 @@ p {
 
 .mobile-nav {
   display: none;
-  background-color: rgb(255, 255, 255);
+
 }
 
 .person {
@@ -419,7 +410,6 @@ p {
   #Contact{
     left: 0;
     top: 240vh;
-
   }
 
   .main {
