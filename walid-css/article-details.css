@@ -6,7 +6,9 @@
     scroll-behavior: smooth;
 }
 
-
+.mobile-nav {
+    display : none;
+}
 /* HEADER STYLES */
 header {
     display: flex;
