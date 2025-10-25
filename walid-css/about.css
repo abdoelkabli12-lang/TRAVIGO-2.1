@@ -10,7 +10,7 @@
 main {
   width: 100%;
   height: 100vh;
-  background-image: url("../walid-img/bg.png");
+  background-image: url("walid-img/bg.png");
   background-position: center;
   background-size: cover;
   position: relative;
